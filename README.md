@@ -1,2 +1,2 @@
-# coursera-test
-Coursera test repository
+# 3D Models 
+3D Models repository
