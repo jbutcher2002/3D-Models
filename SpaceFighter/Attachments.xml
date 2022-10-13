@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<SimBase.Document Type="AceXML" version="1,0">
+
+
+
+<Attachments.Stations>
+
+<Station PositionOffset="-4.125, -14.4, 0" OrientationOffset="0.0, 0.0, 0.0" /> <!--00-->
+
+<Station PositionOffset="-4.125, 14.4, 0" OrientationOffset="0.0, 0.0, 0.0" /> <!--01-->
+
+<Station PositionOffset="40.2, -0.0, -0.2" OrientationOffset="0.0, 0.0, 0.0" /> <!--02-->
+
+<Station PositionOffset="40.2, 0.0, -0.2" OrientationOffset="0.0, 0.0, 0.0" /> <!--03-->
+
+<Station PositionOffset="30.2, -4.0, -0.2" OrientationOffset="0.0, 0.0, 0.0" /> <!--04-->
+
+<Station PositionOffset="30.2, 4.0, -0.2" OrientationOffset="0.0, 0.0, 0.0" /> <!--05-->
+
+<Station PositionOffset="+20.5, -2, 1" OrientationOffset="0.0, 0.0, 0.0" /> <!--06-->
+
+<Station PositionOffset="-3.288, 0.0, -1.0" OrientationOffset="0.0, 0.0, 0.0" /> <!--07-->
+
+</Attachments.Stations>
+
+
+
+<Attachments.Loadouts>
+
+<Attachments.Loadout LoadoutTitle="602+A2A" LoadoutType="WEAPON">
+
+<Attachment StationIndex="2" ObjectTitle="MGM-140" Quantity="1" />
+
+<Attachment StationIndex="3" ObjectTitle="MGM-140" Quantity="1" />
+
+<Attachment StationIndex="4" ObjectTitle="V-750" Quantity="1" />
+
+<Attachment StationIndex="5" ObjectTitle="V-750" Quantity="1" />
+
+
+
+</Attachments.Loadout>
+
+
+
+<Attachments.Loadout LoadoutTitle="402+JDAM" LoadoutType="WEAPON">
+
+<Attachment StationIndex="2" ObjectTitle="AIM-9M_Sidewinder" Quantity="1" />
+
+<Attachment StationIndex="3" ObjectTitle="AIM-9M_Sidewinder" Quantity="1" />
+
+<Attachment StationIndex="4" ObjectTitle="AIM-120_AMRAAM" Quantity="2" PylonTitle="pylon_sidebyside" />
+
+<Attachment StationIndex="5" ObjectTitle="AIM-120_AMRAAM" Quantity="2" PylonTitle="pylon_sidebyside" />
+
+<Attachment StationIndex="7" ObjectTitle="GBU-32_JDAM" Quantity="3" PylonTitle="pylon_sidebyside" />
+
+</Attachments.Loadout>
+
+
+
+<Attachments.Loadout LoadoutTitle="402+HARM" LoadoutType="WEAPON">
+
+<Attachment StationIndex="2" ObjectTitle="AIM-9M_Sidewinder" Quantity="1" />
+
+<Attachment StationIndex="3" ObjectTitle="AIM-9M_Sidewinder" Quantity="1" />
+
+<Attachment StationIndex="4" ObjectTitle="AIM-120_AMRAAM" Quantity="2" PylonTitle="pylon_sidebyside" />
+
+<Attachment StationIndex="5" ObjectTitle="AIM-120_AMRAAM" Quantity="2" PylonTitle="pylon_sidebyside" />
+
+<Attachment StationIndex="7" ObjectTitle="AGM-88_HARM" Quantity="2" PylonTitle="pylon_sidebyside" />
+
+</Attachments.Loadout>
+
+
+
+<Attachments.Loadout LoadoutTitle="402+BLU109" LoadoutType="WEAPON">
+
+<Attachment StationIndex="2" ObjectTitle="AIM-9M_Sidewinder" Quantity="1" />
+
+<Attachment StationIndex="3" ObjectTitle="AIM-9M_Sidewinder" Quantity="1" />
+
+<Attachment StationIndex="4" ObjectTitle="AIM-120_AMRAAM" Quantity="2" PylonTitle="pylon_sidebyside" />
+
+<Attachment StationIndex="5" ObjectTitle="AIM-120_AMRAAM" Quantity="2" PylonTitle="pylon_sidebyside" />
+
+<Attachment StationIndex="7" ObjectTitle="BLU-109" Quantity="3" PylonTitle="pylon_sidebyside" />
+
+</Attachments.Loadout>
+
+
+
+<Attachments.Loadout LoadoutTitle="Standard" LoadoutType="COUNTERMEASURE">
+
+<Attachment StationIndex="0" ObjectTitle="Chaff" Quantity="100" />
+
+<Attachment StationIndex="1" ObjectTitle="Flare" Quantity="100" />
+
+</Attachments.Loadout>
+
+
+
+<Attachments.Loadout LoadoutTitle="Standard" LoadoutType="GUN">
+
+<Attachment StationIndex="6" ObjectTitle="M-61_Vulcan" Quantity="1000" />
+
+</Attachments.Loadout>
+
+
+
+</Attachments.Loadouts>
+
+
+
+<Attachments.Pylons>
+
+<Attachments.Pylon PylonTitle="pylon_sidebyside">
+
+<PylonPoint PositionOffset="0.0, -1.0, -2.10" OrientationOffset="0.0, 0.0, 0.0"></PylonPoint>
+
+<PylonPoint PositionOffset="0.0, 1.0, -2.10" OrientationOffset="0.0, 0.0, 0.0"></PylonPoint>
+
+<PylonPoint PositionOffset="0.0, 0, -2.40" OrientationOffset="0.0, 0.0, 0.0"></PylonPoint>
+
+</Attachments.Pylon>
+
+</Attachments.Pylons>
+
+
+
+</SimBase.Document>
