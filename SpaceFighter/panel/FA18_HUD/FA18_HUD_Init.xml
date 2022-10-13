@@ -1,0 +1,23 @@
+<Gauge Name="FA18_HUD_Init" Version="1.0"><Element><Select><Value>(L:HUD Init, bool) 0 == if{
+
+
+	<!--	This is the HUD initialization procedure. Options can be changed later from the HUD Switch Panel.						-->
+	<!--	This file is not necessary for the HUD to work; if it is not present, the options will take default value of zero.				-->
+
+
+	0 (&gt;L:HUD_Color_Switch, enum)	<!-- 0 - HUD symbology in blue (cyan) color; 1- Green color 						-->
+	0 (&gt;L:Cage Switch,enum)		<!-- 0 - Cage mode is OFF; 1 - Cage mode is ON 							-->
+	0 (&gt;L:Altitude Switch, enum)	<!-- 0 - Altimeter shows barometric altitude; 1 -  Altimeter shows radar altitude 				-->
+	0 (&gt;L:Steering Switch, enum)	<!-- 0 - Steering arrow is OFF; 1- Steering is set to NAV1; 2 - Steering is set to NAV2; 3 - Steering is set to GPS 	-->
+	0 (&gt;L:ILS Switch, enum)		<!-- 0 - ILS needles are ON; 1- ILS needles are OFF 							-->
+	0 (&gt;L:HUD Clock Mode, enum)	<!-- 0 - Local time; 1- Zulu time; 2 - Timer; 3 - ETA to GPS waypoint or NAV1 station 				-->
+	0 (&gt;L:Rate Switch, enum)		<!-- 0 - Gun - HIGH rate of fire (6,000 rpm); 1- LOW rate of fire (4,000 rpm) 					-->
+	0 (&gt;L:AMMO Mode, enum)		<!-- 0 - Gun - Unlimited ammunition; 1- Limited ammunition; 2 - Limited ammunition but with Smart Gun Option 	-->
+	0 (&gt;L:Arm Switch, enum)		<!-- 0 - Master Arm Switch OFF; 1- Master Arm Switch ON 						-->
+	1 (&gt;L:Smoke_number, enum)	<!-- This is the number of the gun smoke effect in the aircraft.cfg (if it is on smoke.1 the number is 1)		-->
+
+	1 (&gt;L:HUD Init, bool)		<!-- This is the initialization variable - do not change! 							-->
+
+
+
+}</Value></Select></Element></Gauge>
