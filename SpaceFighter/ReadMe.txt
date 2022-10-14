@@ -11,13 +11,15 @@ Flight model based on X-35 from fs09. VTOL is activated by flaps.
 I think I put in 5 or 6 flap settings. Flaps full down is VTOL. Flaps
 up one produces foreward thrust. Flaps up full is full thrust, and 
 will max out at mach 4.6  Rudder is touchie at speed, but such is 
-the price for VTOL in P3D. Kelly's auto ILS aproach guage
+the price for VTOL in P3D. Kelly's auto ILS aproach guage, sim rate,
+and auto pilot guages all work, but are being replaced by newer avionics.
 
 Virtual Cockpit is work in progress. Im adding animated controls, 
-afterburner effects, landing gear, and custom panel.
+afterburner effects, landing gear, and the F-111 ground following
+radar. Im reworking some guages from version 5, and FS2020 to make 
+the VC one of the most realistic.
 
 Installation.
-
 DISCLAMER.
 Use of these & any subsiquent add-on files is undertaken entierly 
 at your own risk. The designers and anyone offering technical advice,
